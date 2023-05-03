@@ -1,0 +1,11 @@
+D:\Tu_Hoc_Lap_Trinh\C#\SOFTWARE_TECHNOLOGY\Unit_1\bin\Debug\Unit_1.exe.config
+D:\Tu_Hoc_Lap_Trinh\C#\SOFTWARE_TECHNOLOGY\Unit_1\bin\Debug\Unit_1.exe
+D:\Tu_Hoc_Lap_Trinh\C#\SOFTWARE_TECHNOLOGY\Unit_1\bin\Debug\Unit_1.pdb
+D:\Tu_Hoc_Lap_Trinh\C#\SOFTWARE_TECHNOLOGY\Unit_1\obj\Debug\Unit_1.csproj.AssemblyReference.cache
+D:\Tu_Hoc_Lap_Trinh\C#\SOFTWARE_TECHNOLOGY\Unit_1\obj\Debug\Unit_1.csproj.SuggestedBindingRedirects.cache
+D:\Tu_Hoc_Lap_Trinh\C#\SOFTWARE_TECHNOLOGY\Unit_1\obj\Debug\Unit_1.Properties.Resources.resources
+D:\Tu_Hoc_Lap_Trinh\C#\SOFTWARE_TECHNOLOGY\Unit_1\obj\Debug\Unit_1.Unit_1.resources
+D:\Tu_Hoc_Lap_Trinh\C#\SOFTWARE_TECHNOLOGY\Unit_1\obj\Debug\Unit_1.csproj.GenerateResource.cache
+D:\Tu_Hoc_Lap_Trinh\C#\SOFTWARE_TECHNOLOGY\Unit_1\obj\Debug\Unit_1.csproj.CoreCompileInputs.cache
+D:\Tu_Hoc_Lap_Trinh\C#\SOFTWARE_TECHNOLOGY\Unit_1\obj\Debug\Unit_1.exe
+D:\Tu_Hoc_Lap_Trinh\C#\SOFTWARE_TECHNOLOGY\Unit_1\obj\Debug\Unit_1.pdb
