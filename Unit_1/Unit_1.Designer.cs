@@ -40,6 +40,8 @@
             this.btn_Tinh = new System.Windows.Forms.Button();
             this.btn_BoQua = new System.Windows.Forms.Button();
             this.btn_Thoat = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -158,11 +160,33 @@
             this.btn_Thoat.UseVisualStyleBackColor = true;
             this.btn_Thoat.Click += new System.EventHandler(this.btn_Thoat_Click);
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(545, 534);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(198, 20);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Họ và tên: Phạm Sỹ Quang";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(545, 558);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(181, 20);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "MSSV: K195480106018";
+            // 
             // Unit_1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(791, 539);
+            this.ClientSize = new System.Drawing.Size(791, 587);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.btn_Thoat);
             this.Controls.Add(this.btn_BoQua);
             this.Controls.Add(this.btn_Tinh);
@@ -196,6 +220,8 @@
         private System.Windows.Forms.Button btn_Tinh;
         private System.Windows.Forms.Button btn_BoQua;
         private System.Windows.Forms.Button btn_Thoat;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
     }
 }
 

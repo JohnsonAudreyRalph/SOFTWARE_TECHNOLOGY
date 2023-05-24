@@ -40,6 +40,8 @@
             this.txt_Result = new System.Windows.Forms.TextBox();
             this.txtValue = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnExit
@@ -159,11 +161,33 @@
             this.label4.TabIndex = 12;
             this.label4.Text = "Kết quả";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(502, 540);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(181, 20);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "MSSV: K195480106018";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(502, 516);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(198, 20);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "Họ và tên: Phạm Sỹ Quang";
+            // 
             // Unit_5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(812, 524);
+            this.ClientSize = new System.Drawing.Size(812, 580);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtValue);
             this.Controls.Add(this.txt_Result);
@@ -197,6 +221,8 @@
         private System.Windows.Forms.TextBox txt_Result;
         private System.Windows.Forms.TextBox txtValue;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
     }
 }
 

@@ -33,6 +33,8 @@
             this.Sort = new System.Windows.Forms.Button();
             this.txt_Number = new System.Windows.Forms.TextBox();
             this.btn_Delete = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txt_Input
@@ -87,11 +89,33 @@
             this.btn_Delete.UseVisualStyleBackColor = true;
             this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(349, 261);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(181, 20);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "MSSV: K195480106018";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(349, 237);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(198, 20);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "Họ và tên: Phạm Sỹ Quang";
+            // 
             // Unit_4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(584, 232);
+            this.ClientSize = new System.Drawing.Size(584, 303);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.btn_Delete);
             this.Controls.Add(this.txt_Number);
             this.Controls.Add(this.Sort);
@@ -111,6 +135,8 @@
         private System.Windows.Forms.Button Sort;
         private System.Windows.Forms.TextBox txt_Number;
         private System.Windows.Forms.Button btn_Delete;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
     }
 }
 

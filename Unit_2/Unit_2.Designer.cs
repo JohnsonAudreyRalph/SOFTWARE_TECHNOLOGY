@@ -33,6 +33,8 @@
             this.button_1 = new System.Windows.Forms.Button();
             this.button_2 = new System.Windows.Forms.Button();
             this.listBox = new System.Windows.Forms.ListBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -86,11 +88,33 @@
             this.listBox.Size = new System.Drawing.Size(216, 164);
             this.listBox.TabIndex = 4;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(273, 365);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(181, 20);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "MSSV: K195480106018";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(273, 341);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(198, 20);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "Họ và tên: Phạm Sỹ Quang";
+            // 
             // Unit_2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(483, 350);
+            this.ClientSize = new System.Drawing.Size(533, 396);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.listBox);
             this.Controls.Add(this.button_2);
             this.Controls.Add(this.button_1);
@@ -110,6 +134,8 @@
         private System.Windows.Forms.Button button_1;
         private System.Windows.Forms.Button button_2;
         private System.Windows.Forms.ListBox listBox;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
     }
 }
 
